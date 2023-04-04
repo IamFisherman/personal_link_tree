@@ -73,8 +73,12 @@ main {
     text-decoration: none;
     justify-content: space-evenly;
     color: white;
+    background-color: rgb(59, 59, 59);
+    align-items: center;
+    font-size:small;
+    font-weight:normal;
 
-    border-style: solid;
+    border-style:hidden;
     border-width: thin;
     border-color: white;
     border-radius: 50px;
@@ -84,6 +88,6 @@ main {
 }
 
 .links a:hover {
-    text-decoration: underline;
+    background-color: rgb(78, 78, 78);
 }
 
